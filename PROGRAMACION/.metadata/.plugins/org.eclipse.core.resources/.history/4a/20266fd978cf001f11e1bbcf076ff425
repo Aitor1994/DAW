@@ -1,0 +1,10 @@
+package ejercicios_básicos;
+
+public class calculadora {
+
+	public static void main(String[] args) {
+		/* */
+
+	}
+
+}

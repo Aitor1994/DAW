@@ -1,0 +1,58 @@
+--Ejercicio 1
+create table Alumnos(
+nombre varchar(15),
+apellido varchar(50),
+dni char(9),
+);
+--Ejercicio 2
+alter table Alumnos add C_P number (5);
+--Ejercicio 3
+alter table Alumnos add Fecha_nacimiento date;
+--Ejercicio 4
+alter table Alumnos drop column C_P;
+alter table Alumnos rename column Fecha_nacimiento to f_nacimiento;
+alter table Alumnos modify apellido varchar(200);
+
+--Ejercicio 5 primary key
+create table Alumnos1(
+nombre varchar(15),
+apellido varchar(50),
+dni char(9) primary key,
+);
+
+create table Alumnos2(
+nombre varchar(15),
+apellido varchar(50),
+dni char(9)
+);
+alter table Alumnos2 add primary key (dni);
+
+create table Alumnos3(
+nombre varchar(15),
+apellido varchar(50),
+dni char(9)
+);
+alter table Alumnos3 add constraint pk_nombre_alumnos primary key (dni);
+
+create table Alumnos4(
+nombre varchar(15),
+apellido varchar(50),
+dni char(9),
+primary key (dni)
+);
+
+--Para crear una foreign key debemos tener otra tabala antes que tenga una Pk para que pueda ser fk en otra
+create table Notas(
+nombre varchar(15),
+apellidos varchar(15),
+notas_alumno number
+);
+alter table Notas add primary key (notas_alumno);
+
+
+
+
+
+
+
+

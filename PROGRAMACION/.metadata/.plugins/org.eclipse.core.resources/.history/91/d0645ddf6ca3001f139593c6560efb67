@@ -1,0 +1,17 @@
+package Ejercicios_repaso;
+
+public class ejercicio5 {
+
+	public static void main(String[] args) {
+		/*Realizar un programa que muestre por consola todos los números del 1 al 20 en una única 
+        línea de este modo: 1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20*/
+		
+		for (int i = 1; i <= 19; i++) {
+			System.out.print(i+"_");
+		}
+		System.out.print("20");
+
+		
+	}
+
+}

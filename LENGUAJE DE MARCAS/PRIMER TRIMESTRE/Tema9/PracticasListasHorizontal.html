@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas horizontal</title>
+    <!--LOS ESTILOS QUE QUEREMOS COMUN PARA TODAS LAS TABLAS LO PONEMOS EN STYLE EN EL HEAD-->
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: yellow;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: aqua;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+                <!--EL HOVER ES LO QE HACE QUE CAMBIE DE COLO AL PASAR EL RATON POR ENCIMA.-->
+
+        li a:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#contactos">Contactos</a></li>
+        <li><a href="#ayuda">Ayuda</a></li>
+        <li><a href="Salir">Salir</a></li>
+    </ul>
+    <!--PODEMOS CAMBIAR EL TIPO DE INDICE QUE QUEREMOS QUE SALGA EN CADA LISTA CON EL TYPE -->
+    <ol type="1">
+        <li>listas</li>
+        <li>Alumnos</li>
+        <li>Notas</li>
+    </ol>
+</body>
+</html>

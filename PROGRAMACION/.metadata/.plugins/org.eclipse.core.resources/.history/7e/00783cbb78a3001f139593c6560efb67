@@ -1,0 +1,29 @@
+package Ejercicios_Practicos;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class ejercicio_19 {
+
+	public static void main(String[] args) {
+		// Crea y juega al ahorcado con arrays:
+		Scanner sc = new Scanner(System.in);
+		Random random = new Random();
+
+		String[] palabras = new String[] { "azulejo", "tenedor", "saltamontes", "carretilla", "molinero",
+				"sofisticado", "terremoto", "culinario", "teclado", "primavera" };
+		Integer aleatorio = random.nextInt(0, 10);
+		String[] palabraSecreta = palabras[aleatorio].split("");
+		String [] aciertos = new String[palabras.length];
+		
+		for (int i = 0; i < aciertos.length; i++) {
+			aciertos[0] = palabraSecreta[0];
+		}
+		
+		
+		
+		
+
+	}
+
+}

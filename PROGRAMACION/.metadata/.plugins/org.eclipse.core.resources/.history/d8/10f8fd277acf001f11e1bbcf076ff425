@@ -1,0 +1,18 @@
+package ejercicios_básicos;
+
+import java.util.Scanner;
+
+public class Calculadora {
+
+	public static void main(String[] args) {
+		/*Lleva el método realizado en el ejercicio anterior a una nueva clase llamada “Calculadora”. Prueba su
+          funcionamiento desde el método main con algún test.*/
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		int num2 = sc.nextInt();
+		int resultado = Ejercicio5.sumar(num, num2);
+		System.out.println(resultado);
+
+	}
+
+}

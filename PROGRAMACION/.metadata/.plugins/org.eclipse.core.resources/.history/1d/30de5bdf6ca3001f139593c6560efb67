@@ -1,0 +1,25 @@
+package Ejercicios_repaso;
+
+import java.util.Scanner;
+
+public class T2_ejercicio1 {
+	public static final int AÑO_ACTUAL = 2030;
+	
+	public static void main(String[] args) {
+		//Realizar un programa que solicite el nombre y el año de nacimiento del usuario. Luego 
+		//imprimirá por consola esto: 
+		Scanner sc = new Scanner(System.in);
+		
+	    System.out.println("Introduce tu nombre: ");
+	    //Usamos scanner y guardamos los datos en las variable que queramos:
+	    String nombre = sc.nextLine();
+	    
+	    System.out.println("Introduce u fecha de nacimiento: ");
+	    Integer fechaNacimiento = sc.nextInt();
+	    
+	    System.out.println("Hola "+ nombre + ", en el año 2030 tendrás "+ (AÑO_ACTUAL-fechaNacimiento) + " años.");
+	sc.close();
+
+	}
+
+}

@@ -1,0 +1,39 @@
+package ejercicios_básicos;
+
+import java.util.Scanner;
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+		/* Crea un método llamado getMayMin que reciba una cadena por parámetro: 
+           Un número que podrá ser 1 o 2
+           Una cadena
+           Tendrá que devolver la cadena recibida, quitando espacios en blanco del principio y del final. Luego, si el
+           número recibido es 1, devolverá esa cadena en mayúsculas. Si el número recibido es 2, devolverá esa cadena
+           en minúsculas.*/
+		
+		//Creo scanner ya que los datos los introducira el usuario:
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Escriba la frase que quiera mostrar , luego escriba 1 para pasarla a mayusc, o 2 para minusc. :");
+		//Las variables en el main han de llamarse como las variables en la funcion creada abajo??
+		String frase = sc.nextLine();
+		Integer num = sc.nextInt();
+		//En este syso hemos de mostrar la misma variable que tiene el return en la funcion ? 
+		System.out.println(frase);
+
+	}
+	//Dijiste algo del orden: Ha de coincidir el orden de los datos de entrada de la funcion con el orden en que le pido los 
+	//Datos al usuario???
+	public static String getMayMin(String cadena, Integer num) {
+		String frase = cadena.trim();
+		if (num==1) {
+			frase.toUpperCase();
+		}
+		else if (num==2) {
+			frase.toLowerCase();
+		}
+		return frase;
+	}
+	
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema 9_3</title>
+    <style>
+        table {
+            /*border-collapse: collapse; con esto que hemos quitado se separan las celdas de la tabla*/
+            width: 100%;
+        }
+        th,
+        td{
+            border-bottom: 1px solid;/*Este border bottom es el que pone las lineas debajo de cada celda*/
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even){/*CON ESTO LE DAMOS COLORES A LAS COLUMNAS PARES EVEN, E IMPARES ODD*/
+            background-color: rgba(214, 238, 238, 0.555);
+        }tr:nth-child(odd){
+            background-color: rgba(238, 221, 214, 0.295);
+        }
+        td:nth-child(odd)
+        th:nth-child(even){
+            background-color: rgba(196, 9, 134, 0.527);
+        }
+        tr:hover{
+            background-color: blueviolet;
+        }
+        td:hover{/*CON ESTE TDO TH : HOVER MARCAMOS DEL COLOR QUE DIGAMOS POR DONDE PASEMOS EL RATON*/
+            background-color: red;
+        }
+        th:hover{
+            background-color: yellow;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col />
+        <col
+        span="2"
+        style="width: 120px;background-color: green;">
+    </colgroup>
+        <tr style="background-color: white;">
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Pagado</th>
+        </tr>
+        <tr>
+        <td>Pedro</td>
+        <td>García</td>
+        <td>200€</td>
+        </tr>
+        <tr>
+        <td>Silvia</td>
+        <td>Hurtado</td>
+        <td>150€</td>
+        </tr>
+        <tr>
+        <td>Laura</td>
+        <td>Noesta</td>
+        <td>450€</td>
+        </tr>
+        <tr>
+        <td>Antonio</td>
+        <td>Pavón</td>
+        <td>250€</td>
+        </tr>
+        </table>
+        
+</body>
+</html>

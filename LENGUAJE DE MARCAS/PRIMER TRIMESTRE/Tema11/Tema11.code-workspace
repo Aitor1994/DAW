@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Tema9"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Tema11"
+	}
+}
