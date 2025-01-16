@@ -1,0 +1,12 @@
+package metodos;
+
+public class AquiProbamosMetodos {
+
+	public static void main(String[] args) {
+		// Aqui probamos metodos usando la importacion por codigo
+
+		String[] array = new String[] { "Hola", "Adios", "Que tal" };
+		ArrayUtils.imprimirArray(array);
+	}
+
+}

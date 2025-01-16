@@ -20,6 +20,7 @@ public class Ejercicio25 {
 
 			// Generamos el numero aleatorio que asemejaremo a una figura con IF:
 			Integer aleatorio = random.nextInt(1, 4);
+			sc.close();
 			if (aleatorio == 1) {
 				manoPc = "Piedra";
 			} else if (aleatorio == 2) {

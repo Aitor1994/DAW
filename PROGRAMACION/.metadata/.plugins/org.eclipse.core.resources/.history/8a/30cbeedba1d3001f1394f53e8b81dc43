@@ -1,0 +1,22 @@
+package metodos;
+
+import java.util.Scanner;
+
+public class AquiProbamosMetodos {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// Aqui probamos metodos usando la importacion por codigo
+
+		String[] array = new String[] { "Hola","Adios", "Que tal" };
+		ArrayUtils.imprimirArray(array);
+		
+		System.out.println();
+		
+		//Probamos obtenerPalabra
+		System.out.println("Introduce la posicion de la palabra: ");
+		Integer num = sc.nextInt();
+		ArrayUtils.obtenerPalabra(array, num);
+sc.close();}
+
+}

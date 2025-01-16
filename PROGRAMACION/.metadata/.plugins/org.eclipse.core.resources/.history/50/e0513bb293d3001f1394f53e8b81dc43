@@ -1,0 +1,10 @@
+package metodos;
+
+public class Calculadora {
+	//Esto es una clase sin metodo main
+	public static Integer suma(Integer num, Integer num2) {
+		Integer suma = num + num2;
+		return suma;
+}
+	
+}

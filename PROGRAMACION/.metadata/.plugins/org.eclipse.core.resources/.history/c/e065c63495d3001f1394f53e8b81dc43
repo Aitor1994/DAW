@@ -1,0 +1,21 @@
+package metodos;
+
+public class Calculadora {
+	//Esto es una clase sin metodo main
+	public static Integer suma(Integer num, Integer num2) {
+		Integer suma = num + num2;
+		return suma;
+}
+	public static Integer restar(Integer num, Integer num2) {
+		Integer resta = num - num2;
+		return resta;
+	}
+	public static Integer multiplicar(Integer num, Integer num2){
+		Integer multiplicar = num * num2;
+		return multiplicar;
+	}
+	public static Integer dividir(Integer num, Integer num2) {
+		Integer dividir = num/num2;
+		return dividir;
+	}
+}
