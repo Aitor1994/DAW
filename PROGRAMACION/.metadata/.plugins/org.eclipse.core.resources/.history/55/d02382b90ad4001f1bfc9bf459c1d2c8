@@ -19,15 +19,9 @@ public class AquiProbamosMetodos {
 		
 		
 		//Probamos buscarPalabra
-		
-		
-		//Probamos sumarNumero de la clase Numeros.
-		System.out.println("¿De que tamaño es tu array?");
-		Integer tamaño = sc.nextInt();
-		Integer [] array2 = new Integer[tamaño];
-		System.out.println("¿Porque numero quieres empezar la suma?");
-		Integer comienzo = sc.nextInt();
-		Numeros.sumarNumero(array2, comienzo);
+		System.out.println("Introduce la palabra a buscar: ");
+		String palabra = sc.nextLine();
+		ArrayUtils.buscarPalabra(array, palabra);
 sc.close();}
 
 }
