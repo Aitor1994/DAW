@@ -19,7 +19,7 @@ public class ArrayUtils {
 				System.out.println(palabra);
 			}
 		}
-		return palabra;
+		return "hola";
 	}
 
 	/*En la clase ArrayUtils, crea un método llamado buscarPalabra que reciba un array de cadenas 
@@ -31,7 +31,7 @@ public class ArrayUtils {
 			if (cadena.equals(array[i])) {
 				return i;
 				
-			}else if (!cadena.equals(array[i])) {
+			}if (!cadena.equals(array[i])) {
 				System.out.println(-1);
 			}
 		}return -1;

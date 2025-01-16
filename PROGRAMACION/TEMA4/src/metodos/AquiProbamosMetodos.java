@@ -16,7 +16,7 @@ public class AquiProbamosMetodos {
 	System.out.println();
 		
 		//Probamos obtenerPalabra
-		
+		ArrayUtils.obtenerPalabra(array, 2);
 		
 		//Probamos buscarPalabra
 		
