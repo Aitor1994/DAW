@@ -1,0 +1,34 @@
+package metodos;
+
+import java.util.Scanner;
+
+public class AquiProbamosMetodos {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// Aqui probamos metodos usando la importacion por codigo
+
+		String[] array = { "Hola","Adios", "Que tal" };
+		
+		
+		
+		//Probamos buscarPalabra
+		System.out.println(ArrayUtils.buscarPalabra(array, "ey"));
+		
+		/*Probamos sumarNumero de la clase Numeros.
+		System.out.println("¿De que tamaño es tu array?");
+		Integer tamaño = sc.nextInt();
+		Integer [] array2 = new Integer[tamaño];
+		System.out.println("¿Hasa que numero quieres sumar?");
+		Integer ultimo = sc.nextInt();
+		Numeros.sumarNumero(array2, ultimo);*/
+		for (int i = 1; i < 10; i++) {
+			int num = 1;
+			System.out.println(num += num);
+		}
+		//
+		
+sc.close();}
+
+	
+}

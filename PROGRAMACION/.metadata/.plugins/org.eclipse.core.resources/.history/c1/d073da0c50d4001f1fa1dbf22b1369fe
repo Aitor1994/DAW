@@ -1,0 +1,11 @@
+package metodos;
+
+public class Numeros {
+
+	public static void sumarNumero(Integer array[], Integer num) {
+		for (int i = 1; i < array.length-1; i++) {
+			 
+		}System.out.println(num + 1);
+		
+	}
+}

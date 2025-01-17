@@ -22,21 +22,21 @@ public class ArrayUtils {
 		return "hola";
 	}
 
-	/*En la clase ArrayUtils, crea un método llamado buscarPalabra que reciba un array de cadenas 
-      y una palabra por parámetros. Debe devolver un entero indicando la posición donde se 
-      encuentra esa palabra dentro del array. Si no existe la palabra en el array, devolverá -1. */
-	
-	public static Integer buscarPalabra(String array[], String cadena) {
+	/*
+	 * En la clase ArrayUtils, crea un método llamado buscarPalabra que reciba un
+	 * array de cadenas y una palabra por parámetros. Debe devolver un entero
+	 * indicando la posición donde se encuentra esa palabra dentro del array. Si no
+	 * existe la palabra en el array, devolverá -1.
+	 */
+
+	public static Integer buscarPalabra(String [] array, String cadena) {
+		Integer res = -1;
 		for (int i = 0; i < array.length; i++) {
-			if (cadena.equals(array[i])) {
-				return i;
-				
-			}if (!cadena.equals(array[i])) {
-				System.out.println(-1);
-			}
-		}return -1;
-		
+			if (array[i].equals(cadena)) {
+				res = i;
+			} 
+		}
+		return res;
+
 	}
 }
-
-
