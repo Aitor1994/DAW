@@ -1,0 +1,21 @@
+
+package ejercicio22;
+
+public class Ejercicio22 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Alumno alumno = new Alumno("deede");
+		Curso curso = new Curso();
+
+		alumno.setDni("dwedee");
+		alumno.setNota(23);
+
+		String identificador = "ddd33";
+		String descripcion = " ";
+
+		alumno.setCurso(identificador);
+	}
+
+}

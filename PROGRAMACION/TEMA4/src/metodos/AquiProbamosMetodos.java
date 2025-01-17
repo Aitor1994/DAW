@@ -13,7 +13,7 @@ public class AquiProbamosMetodos {
 		
 		
 		//Probamos buscarPalabra
-		System.out.println(ArrayUtils.buscarPalabra(array, "ey"));
+		System.out.println(ArrayUtils.buscarPalabra(array, "Adios"));
 		
 		//Probamos sumarNumero de la clase Numeros.
 		System.out.println("¿Hasa que numero quieres sumar?");

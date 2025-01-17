@@ -10,6 +10,8 @@ public class Alumno {
 	private Integer edad;
 	private Integer nota;
 
+	
+	
 	public String getDni() {
 		return dni;
 	}
