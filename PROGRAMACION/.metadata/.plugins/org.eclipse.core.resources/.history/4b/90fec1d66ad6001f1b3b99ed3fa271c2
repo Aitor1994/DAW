@@ -20,11 +20,6 @@ public class AquiProbamosMetodos {
 		Integer num = sc.nextInt();
 		Numeros.sumarNumero(num);
 		
-		//Probamos el metodo FACTORIAL.
-		System.out.println("Ha que numero quieres realizarle el metodo? :");
-		int num1 = sc.nextInt();
-		Numeros.factorial(num1);
-		
 		
 sc.close();}
 

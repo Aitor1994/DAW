@@ -18,11 +18,6 @@ public class Alumno {
 		this.curso = curso;
 	}
 
-	@Override
-	public String toString() {
-		return "Alumno [dni=" + dni + ", nota=" + nota + ", curso=" + curso + "]";
-	}
-
 	//ESTO SERIA UN CONSTRUCTOR CON PARAMETRO, PARA ELLO NO TENDRIAMOS QUE USAR GET Y SET
 	public Alumno(String dni) {
 		super();

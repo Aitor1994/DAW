@@ -1,0 +1,15 @@
+package metodos;
+
+public class Prueba {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Integer numero = imprimirNumero(7);
+	}
+public static Integer imprimirNumero (int num) {
+	int numero = 7;
+	System.out.println(numero);
+	return 8;
+}
+}

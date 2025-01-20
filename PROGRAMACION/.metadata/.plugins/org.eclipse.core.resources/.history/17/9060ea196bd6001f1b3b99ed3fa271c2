@@ -10,10 +10,10 @@ public class Numeros {
 	}
 	public static void factorial(Integer num) {
 		int numero = 1;
+		int total = 0;
 		int mult = 0;
 		for (int i = 1; i <= num; i++) {
-			System.out.println();
-			numero = numero * mult;
+			System.out.print(total = numero * mult);
 			mult += 1;;
 	}
 }
