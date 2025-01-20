@@ -10,7 +10,8 @@ public class Ejercicio23 {
           Profesor y meter todos esos datos que el usuario le proporciona.*/
 		Scanner sc = new Scanner(System.in);
 		 Profesor profesor = new Profesor();
-		
+		 Persona persona = new Persona();
+		 
 		System.out.println("Introduce la edad y el nombre del nuevo Profesor.");
 	   
 	    profesor.setEdad(sc.nextInt());
@@ -22,7 +23,7 @@ sc.close();
 
 	System.out.println(profesor.getEdad());
 	System.out.println(profesor.getNombre());
-	    
+	System.out.println(persona);
 	}
 
 }

@@ -6,7 +6,6 @@ public class Alumno extends Persona {
 	// Se crean en la CLASS NO EN EL MAIN, SIRVEN PARA LUEGO EN EL MAIN PODER USAR
 	// EL GET Y EL SET PARA OBETENER O DARLE VALROES
 	private String dni;
-
 	private Integer nota;
 	
 	

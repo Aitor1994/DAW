@@ -19,7 +19,7 @@ public class Ejercicio22 {
 		curso.setIdentificador(identificador);
 
 		alumno.setCurso(curso);
-		System.out.println(alumno.getDni());
+		System.out.println(alumno.getCurso());
 	}
 
 }

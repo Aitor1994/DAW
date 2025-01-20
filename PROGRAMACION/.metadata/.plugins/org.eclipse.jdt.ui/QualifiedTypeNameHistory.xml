@@ -2,5 +2,7 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ejercicio23.Profesor"/>
+    <fullyQualifiedTypeName name="ejercicio21.Persona"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Class"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,53 @@
+package ejercicio26;
+
+import ejercicio22.Curso;
+
+public class Alumnos {
+	private String dni;
+    private Integer nota;
+    //Hemos creado en alumno un "TIPO" curso que lleva los atributos de su clase"En este caso curso"
+	private Curso curso;
+	
+	//Constructor Alumnos
+	public Alumnos() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Curso getCurso() {
+		return curso;
+	}
+
+	public void setCurso(Curso curso) {
+		this.curso = curso;
+	}
+
+	@Override
+	public String toString() {
+		return "Alumno [dni=" + dni + ", nota=" + nota + ", curso=" + curso + "]";
+	}
+
+	//ESTO SERIA UN CONSTRUCTOR CON PARAMETRO, PARA ELLO NO TENDRIAMOS QUE USAR GET Y SET
+	
+
+	public String getDni() {
+		return dni;
+	}
+
+	public void setDni(String dni) {
+		this.dni = dni.toUpperCase();
+		
+	}
+
+	public Integer getNota() {
+		return nota;
+	}
+
+	public void setNota(Integer nota) {
+		this.nota = nota;
+	}
+
+	public void aprobar() {
+		this.nota = 5;
+	}
+
+}
